@@ -10,7 +10,7 @@ const list = document.getElementById("list");
 // app SETTINGS
 const appSettings = {
     //constant var name used to identify database url : database url
-    databaseURL: Netlify.env.get("FIREBASE_DATABASE_URL"),
+    databaseURL: process.env.get("FIREBASE_DATABASE_URL"),
 };
 
 // initialize the app
