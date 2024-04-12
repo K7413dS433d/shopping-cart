@@ -10,7 +10,7 @@ const list = document.getElementById("list");
 // app SETTINGS
 const appSettings = {
     //constant var name used to identify database url : database url
-    databaseURL: process.env.get("FIREBASE_DATABASE_URL"),
+    databaseURL: 'https://shopping-reminder-bbb2a-default-rtdb.europe-west1.firebasedatabase.app/',
 };
 
 // initialize the app
